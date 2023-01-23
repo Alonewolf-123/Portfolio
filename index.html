@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nikone Bounyavong</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/aos@2.3.0/dist/aos.css' rel='stylesheet'>
+    <script src="js/jquery.min.js">
+    </script>
+    <link href="css/style.css" rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="plugins/aos-scroll-animation/aos.css" rel="stylesheet">
+    <!--== start-smoth-scrolling==-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/move-top.js" type="text/javascript">
+    </script>
+    <script src="js/easing.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!--== start-smoth-scrolling==-->
+
+    <style>
+        ul#menu li {
+            display: inline;
+        }
+        
+        ul#menu li a {
+            color: #fff;
+            font-size: 20px;
+            padding: 10px 7px 10px 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- container -->
+    <!-- header -->
+    <div class="header" id="home">
+        <div class="top-header">
+            <!-- /logo -->
+            <!--top-nav==-->
+            <div class="container">
+                <div class="top-nav">
+                    <div class="navigation">
+                        <div class="logo">
+                            <h1>
+                                <a href="index.html"><img src="images/logo.png" style="width:85px;"></a>
+                            </h1>
+                        </div>
+                        <div class="navigation-right">
+                            <span class="menu"><img alt=" " src="images/menu.png"></span>
+                            <nav class="link-effect-3" id="link-effect-3">
+                                <ul class="nav1 nav nav-wil">
+                                    <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+                                    <li><a class="scroll" data-hover="Profile" href="#about">My Profile</a></li>
+                                    <li><a class="scroll" data-hover="Skills" href="#services">My Skills</a></li>
+                                    <li><a class="scroll" data-hover="Experience" href="#work">My Experience</a></li>
+                                    <li><a class="scroll" data-hover="Contact" href="#contact">Contact Me</a></li>
+                                </ul>
+                            </nav>
+                            <!-- script-for-menu -->
+                            <script>
+                                $("span.menu").click(function() {
+                                    $("ul.nav1").slideToggle(300, function() {
+                                        // Animation complete.
+                                    });
+                                });
+                            </script>
+                            <!-- /script-for-menu -->
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- /top-hedader -->
+                </div>
+            </div>
+        </div>
+        <div class="container" id="about">
+            <!-- top-hedader -->
+            <div class="banner-info">
+                <div class="col-md-5 header-left" data-aos="flip-up"><img alt="" src="images/profile_03.jpg">
+                    <h1 style="margin-top: 0px; text-align:center;">Nikone Bounyavong</h1>
+                </div>
+
+                <div class="col-md-7 header-right" data-aos="zoom-in">
+                    <h1>My Profile</h1>
+                    <h6>Description</h6>
+                    <h3 style="color:#fff; text-align:justify; font-weight: bold;">Blockchain, Web & Mobile, Application Developer</h3>
+                    <h4 style="color:#fff; text-align:justify;  font-weight: bold;">
+                        Highly professional blockchain developer with 5 years of experience, solid leadership skills, and unrivaled building skills.
+                    </h4>
+                    <p style="color:#fff; text-align:justify;">
+                        • Launched 17 coins that a lot of companies and individuals are using now by developing 34 coins for 30 customers, developed 5 cryptocurrency exchange platforms by CEX/DEX with very high TPS and beautiful UI and launched DeFi tokens based on smart contract
+                        and PoS(Proof of Stake) algorithms.
+                    </p>
+                    <p style="color:#fff; text-align:justify;">
+                        • Launched 15 websites that a lot of companies and individuals are using now by developing 36 apps for 22 customers.
+                    </p>
+                    <p style="color:#fff; text-align:justify;">
+                        • Launched 14 apps that a lot of companies and individuals are using now by developing 42 apps for 33 customers and repaired existing Android & iOS applications using Java/Kotlin & Objective-C/Swift.
+                    </p>
+                    <p style="color:#fff; text-align:justify;">
+                        • 12 years of experienced expert in devising innovative and creative software working on desktop for PC’s and Mac’s and advanced skills and knowledge about C/C++/C# and Objective Oriented Programming with a strong background in mathematics, algorithms
+                        and data processing logic.
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div class="services" id="services">
+        <div class="container">
+            <div class="service-head one text-center">
+                <h4>WHAT I DO</h4>
+                <h3>MY <span>Skills</span></h3><span class="border two"></span>
+            </div>
+            <!-- services-grids -->
+            <div class="wthree_about_right_grids w3l-agile">
+                <div class="col-md-6 wthree_about_right_grid" data-aos="fade-left">
+                    <div class="col-xs-12 wthree_about_right_grid_right border-radius-3">
+                        <h4>Knowledge of Computer Science</h4>
+                        <p>In-depth understanding of computer science and all programming languages and ability to code.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-6 wthree_about_right_grid" data-aos="fade-right">
+                    <div class="col-xs-12 wthree_about_right_grid_right border-radius-3">
+                        <h4>New coin & token development</h4>
+                        <p>New coin & token development, maintenance, multiple platform wallet, trading & exchange platform, trading bot, block explorer and private blockchain for financial system. </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-6 wthree_about_right_grid" data-aos="fade-left">
+                    <div class="col-xs-12 wthree_about_right_grid_right border-radius-3">
+                        <h4>Programming Language</h4>
+                        <p>Mastered in C, C++, C#, Python and Qt programming for desktop applications and familiar with multi operating systems including Windows, Mac, Linux, and its tools such as Visual Studio, XCode and QtCreator. </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-6 wthree_about_right_grid" data-aos="fade-right">
+                    <div class="col-xs-12 wthree_about_right_grid_right border-radius-3">
+                        <h4>Framework Knowledge</h4>
+                        <p>Knowledge of most types of web and mobile frameworks based on PHP, Nodejs, Python, Java, including Laravel, Angular, React, Vue, Express, Django, React-Native, Ionic, Flutter, PhoneGap, Xamarin etc and especially eCommerce websites
+                            and mobile apps. </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="col-md-6 wthree_about_right_grid" data-aos="fade-right">
+                    <div class="col-xs-12 wthree_about_right_grid_right border-radius-3">
+                        <h4>Problem solving skills</h4>
+                        <p>Ability to think creatively and find unique solutions to problems. </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="col-md-6 wthree_about_right_grid" data-aos="fade-right">
+                    <div class="col-xs-12 wthree_about_right_grid_right border-radius-3">
+                        <h4>Excellent communication skills </h4>
+                        <p>Strong communication skills to effectively speak with people at any level of an organization from subordinates to supervisors </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!-- services-grids -->
+        </div>
+    </div>
+    <!-- services -->
+    <!--work-experience-->
+    <div class="work" id="work">
+        <div class="container">
+            <div class="service-head text-center">
+                <h4>WHAT I DID</h4>
+                <h3>MY <span>EXPERIENCE</span></h3><span class="border one"></span>
+            </div>
+            <div class="time-main w3l-agile">
+                <ul class="col-md-12 timeline">
+                    <li data-aos="zoom-in">
+                        <div class="timeline-badge info col-md-3">
+                            <i class="glyphicon glyphicon-briefcase"></i>
+                        </div>
+                        <div class="timeline-panel col-md-9">
+                            <div class="col-md-2">
+                                <a href="#" data-toggle="modal" data-target="#myModal1"><img src="img/1.jpg" style="width:100%" /></a>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="timeline-heading">
+                                    <a href="https://clouddemo.alipro-ontime.com">
+                                        <h4 class="timeline-title">ALIPRO - Project Management For Today's World</h4>
+                                    </a>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>This platform is a web platform to manage Microsoft Project Tasks with multiple project managers and users.<br> This platform has a website, windows admin application, Microsoft Project plugin.</p>
+                                    <p><strong>Skills:</strong> c#, c/c++, Azure, MsSQL, Project management, IIS server, EntityFramework, Database Engineering, javascript</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-aos="zoom-in">
+                        <div class="timeline-badge info col-md-3">
+                            <i class="glyphicon glyphicon-briefcase"></i>
+                        </div>
+                        <div class="timeline-panel col-md-9">
+                            <div class="col-md-2">
+                                <a href="#" data-toggle="modal" data-target="#myModal2"><img src="img/2.jpg" style="width:100%" /></a>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="timeline-heading">
+                                    <a href="http://dynamiccoin.org/">
+                                        <h4 class="timeline-title">DynamicCoin (DMC)</h4>
+                                    </a>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>* All the coins have block explorer, mobile wallet apps, windows/Ubuntu/MacOS wallet applications.</p>
+                                    <p><strong>Skills:</strong> PHP, python, blockchain, c/c++, PHP, HTML5, Python, ReactJS, NodeJS, MySQL, 3D Design, 2D Anmation, JavaScript Animation, Network Security</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-aos="zoom-in">
+                        <div class="timeline-badge info col-md-3">
+                            <i class="glyphicon glyphicon-briefcase"></i>
+                        </div>
+                        <div class="timeline-panel col-md-9">
+                            <div class="col-md-2">
+                                <a href="#" data-toggle="modal" data-target="#myModal3"><img src="img/3.jpg" style="width:100%" /></a>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="timeline-heading">
+                                    <a href="#">
+                                        <h4 class="timeline-title">Freebia</h4>
+                                    </a>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>This project is a web platform for advertising service. A publiser can upload his advertisement on this platform and a user can view an advertisement to get money from the publisher. It has a web site and mobile apps.</p>
+                                    <p><strong>Skills:</strong> PHP, Advertisement, Laravel, ReactJS, React Native, MySQL, HTML5, Web Design, Javascript, Android, iOS.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-aos="zoom-in">
+                        <div class="timeline-badge info col-md-3">
+                            <i class="glyphicon glyphicon-briefcase"></i>
+                        </div>
+                        <div class="timeline-panel col-md-9">
+                            <div class="col-md-2">
+                                <a href="#" data-toggle="modal" data-target="#myModal4"><img src="img/4.jpg" style="width:100%" /></a>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="timeline-heading">
+                                    <a href="https://www.pengolincoin.xyz/">
+                                        <h4 class="timeline-title"> PengolinCoin - This is a PoS/MN cryptocurrency forked from Pivx.</h4>
+                                    </a>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>This project has Windows/Ubuntu/MacOS, Android wallets. And it will have iOS wallet, web wallet, paper wallet, HD wallet.</p>
+                                    <p><strong>Skills:</strong>c/c++, blockchain, Android, iOS, SwiftX, JDK, NodeJS, Python, Network Security, ReactJS, HTML5, Javascript</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-aos="zoom-in">
+                        <div class="timeline-badge info col-md-3">
+                            <i class="glyphicon glyphicon-briefcase"></i>
+                        </div>
+                        <div class="timeline-panel col-md-9">
+                            <div class="col-md-2">
+                                <a href="#" data-toggle="modal" data-target="#myModal5"><img src="img/5.jpeg" style="width:100%" /></a>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="timeline-heading">
+                                    <a href="https://clouddemo.alipro-ontime.com">
+                                        <h4 class="timeline-title">Skyrus Network - This project have a website platform, mobile wallets, ATM machines.</h4>
+                                    </a>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>This is a decentralized exchange platform and bank service platform in Singapore. It's based on bitshares. Almost all specs are similiar to bitshares.</p>
+                                    <p><strong>Skills:</strong> c/c++, python, reactJS, nodeJS, php, html5, Django, Laravel, Windows Driver, Android, iOS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--//work-experience-->
+    <!-- /blog-pop-->
+    <!-- //blog-pop-->
+    <!-- /header -->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="service-head one text-center">
+                <h4>CONTACT ME</h4>
+                <h3 style="color:#fff !important;">GET <span>IN TOUCH WITH ME</span></h3><span class="border two"></span>
+            </div>
+            <div class="mail_us">
+                <div class="col-md-6 mail_left" data-aos="slide-up">
+                    <div class="contact-grid1-left">
+                        <div class="contact-grid1-left1">
+                            <span aria-hidden="true" class="glyphicon glyphicon-envelope"></span>
+                            <h4>Contact By Email</h4>
+                            <ul>
+                                <li>Mail: <a href="mailto:alonewolf2ksk@gmail.com">alonewolf2ksk@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-grid1-left">
+                        <div class="contact-grid1-left1">
+                            <span aria-hidden="true" class="glyphicon glyphicon-earphone"></span>
+                            <h4>Contact By Phone</h4>
+                            <ul>
+                                <li>Phone: +856 209 543 7904</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-6 mail_right" data-aos="slide-up">
+                    <h1>About Me</h1>
+                    <p style="color:#9d9595; text-align:justify;">
+                        - PengolinCoin Blockchain Lead Developer (Jun, 2020 – Jan, 2021)
+                        <a href="https://www.pengolincoin.xyz/" style="margin-left: 30px;">https://www.pengolincoin.xyz/</a>
+                    </p>
+                    <p style="color:#9d9595; text-align:justify;">
+                        - ZillionCoin Blockchain Lead Developer (Jul, 2020 – Sep, 2020)
+                        <a href="http://www.zillioncoin.com/" style="margin-left: 30px;">http://www.zillioncoin.com/</a>
+                    </p>
+                    <p style="color:#9d9595; text-align:justify;">
+                        - IT360 Part-Time Job Developer (Jul, 2019 – Jun, 2020)
+                        <a href="https://www.it360.biz/" style="margin-left: 30px;">https://www.it360.biz/</a>
+                    </p>
+                    <p style="color:#9d9595; text-align:justify;">
+                        - Skyrus Network Blockchain Core Developer (Dec, 2018 – Jun, 2019)
+                    </p>
+                    <p style="color:#9d9595; text-align:justify;">
+                        - DynamicCoin Blockchain Lead Developer (Jan, 2018 – Jun, 2019)
+                        <a href="http://dynamiccoin.org/" style="margin-left: 30px;">http://dynamiccoin.org/</a>
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="copy_right text-center">
+                <p>Follow me on </p>
+
+                <ul id="menu" style="margin-left: -35px;">
+                    <li>
+                        <a href="mailto:alonewolf2ksk@gmail.com"> <i class="fa fa-google" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/8562095437904"> <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://join.skype.com/invite/Nxc82pryHbbW"> <i class="fa fa-skype" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/Alonewolf2ksk"> <i class="fa fa-telegram" aria-hidden="true"></i></a>
+                    </li>
+                    <!-- <li>
+                        <a href="#"> <i class="fab fa-discord"> aria-hidden="true"></i></a>
+                    </li> -->
+                    <li>
+                        <a href="https://www.linkedin.com/in/nikone-bounyavong-5286a215b/"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Alonewolf1203"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <!-- <li>
+                        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li> -->
+                </ul>
+
+                <p>&copy; 2021. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    <!-- //footer -->
+    <a href="#home" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+    <!--start-smooth-scrolling-->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <!--end-smooth-scrolling-->
+    <!-- //for bootstrap working -->
+
+    <script src="js/bootstrap.js">
+    </script>
+    <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'>
+    </script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
+
+    <!-- Modal1 -->
+    <div class="modal fade" id="myModal1" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <img src="img/1.jpg" style="width:100%;" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="modal fade" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <img src="img/2.jpg" style="width:100%;" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal3" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <img src="img/3.jpg" style="width:100%;" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal4" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <img src="img/4.jpg" style="width:100%;" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal5" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <img src="img/5.jpeg" style="width:100%;" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
